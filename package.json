@@ -1,9 +1,9 @@
 {
   "name": "save-resp",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "Simple CLI tool for making ajax request then save the response to a local file system. Can be configured to run on an interval over a given amount of time.",
   "main": "index.js",
-  "keywords": "save response, json, xml, save, local, ajax, interval, timeout",
+  "keywords": "save response, json, xml, save, local, ajax, interval, timeout, command line",
   "bin": {
     "save-resp": "./cli.js"
   },
@@ -12,6 +12,10 @@
   },
   "author": "Paul Dickerson",
   "license": "MIT",
+  "repository": { 
+    "type" : "git",
+    "url" : "https://github.com/ticklemycode/save-resp"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "command-line-args": "^5.0.2",
