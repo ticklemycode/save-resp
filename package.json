@@ -1,6 +1,6 @@
 {
   "name": "save-resp",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple CLI tool for making ajax request then save the response to a local file system. Can be configured to run on an interval over a given amount of time.",
   "main": "index.js",
   "keywords": "save response, json, xml, save, local, ajax, interval, timeout",
