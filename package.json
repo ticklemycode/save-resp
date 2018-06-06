@@ -1,0 +1,20 @@
+{
+  "name": "save-resp",
+  "version": "1.0.5",
+  "description": "Simple CLI tool for making ajax request then save the response to a local file system. Can be configured to run on an interval over a given amount of time.",
+  "main": "index.js",
+  "keywords": "save response, json, xml, save, local, ajax, interval, timeout",
+  "bin": {
+    "save-resp": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Dickerson",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.5"
+  }
+}
