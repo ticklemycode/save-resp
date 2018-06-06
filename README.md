@@ -16,12 +16,12 @@ The follow will make a request to a given url every second a period of 10 second
 
 ## Options
 
-| option                | description                                                                                                                            |   |   |   |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-| -h, --help            | Display this usage guide.                                                                                                              |   |   |   |
-| -u, --url string      | URL to make request to.                                                                                                                |   |   |   |
-| -o, --out string      | Path to where you want to store responses. Default is current dir.                                                                     |   |   |   |
-| -i, --interval number | Interval at which URL will be called.                                                                                                  |   |   |   |
-| -t, --timeout number  | Period of time you wish to make ajax calls. Interval is required.                                                                      |   |   |   |
-| -p, --prefix string   | Prefix for filename. Ex: data_1528231421562.json                                                                                       |   |   |   |
-| -s, --timestamp       | Use timestamp or date in filename, Ex: data_1528231421562.json vs,data_Tue_Jun_05_2018_21:57:20_GMT-0400_(EDT).json. Default is false. |   |   |   |
+| option                | description                                                                                                                            |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| -h, --help            | Display this usage guide.                                                                                                              |
+| -u, --url string      | URL to make request to.                                                                                                                |
+| -o, --out string      | Path to where you want to store responses. Default is current dir.                                                                     |
+| -i, --interval number | Interval at which URL will be called.                                                                                                  |
+| -t, --timeout number  | Period of time you wish to make ajax calls. Interval is required.                                                                      |
+| -p, --prefix string   | Prefix for filename. Ex: data_1528231421562.json                                                                                       |
+| -s, --timestamp       | Use timestamp or date in filename, Ex: data_1528231421562.json vs,data_Tue_Jun_05_2018_21:57:20_GMT-0400_(EDT).json. Default is false. |
